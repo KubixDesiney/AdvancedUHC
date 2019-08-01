@@ -1,4 +1,4 @@
-package fr.gravenilvec.uhc;
+package euw.uhc.cc;
 
 import java.util.Map.Entry;
 
@@ -35,14 +35,14 @@ public class UHCListeners implements Listener {
 		
 		if(main.isState(UHCState.GAME) || main.isState(UHCState.GAMEPVP)){
 			player.setGameMode(GameMode.SPECTATOR);
-			player.sendMessage("Vous êtes spectateur");
+			player.sendMessage("Vous Ãªtes spectateur");
 			event.setJoinMessage(null);
 			return;
 		}
 		
 		if(main.getPlayers().contains(player)) return;
 		
-		ScoreboardSign board = new ScoreboardSign(player, "§eUHC");
+		ScoreboardSign board = new ScoreboardSign(player, "Â§eUHC");
 		board.create();
 		board.setLine(0, "Players : " + Bukkit.getOnlinePlayers().size());
 		board.setLine(1, "Borders : " + Math.round(main.border.getSize()));
@@ -111,7 +111,7 @@ public class UHCListeners implements Listener {
 			
 			if(victim.getKiller() instanceof Player){
 				Player killp = (Player)killer;
-				event.setDeathMessage(killp.getName() +" a tué le joueur " + victim.getName());
+				event.setDeathMessage(killp.getName() +" a tuÃ© le joueur " + victim.getName());
 			}
 			
 		}
