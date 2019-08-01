@@ -1,4 +1,4 @@
-package fr.gravenilvec.uhc;
+package euw.uhc.cc;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
