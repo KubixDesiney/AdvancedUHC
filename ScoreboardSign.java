@@ -1,4 +1,4 @@
-package fr.gravenilvec.uhc;
+package euw.uhc.cc;
 
 import net.minecraft.server.v1_8_R3.*;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
@@ -164,9 +164,9 @@ public class ScoreboardSign {
 		setField(packet, "a", player.getName());
 
 		// Mode
-		// 0 : créer
+		// 0 : crÃ©er
 		// 1 : Supprimer
-		// 2 : Mettre à jour
+		// 2 : Mettre Ã  jour
 		setField(packet, "d", mode);
 
 		if (mode == 0 || mode == 2) {
