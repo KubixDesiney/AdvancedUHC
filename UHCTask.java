@@ -1,4 +1,4 @@
-package fr.gravenilvec.uhc;
+package euw.uhc.cc;
 
 import java.util.Map.Entry;
 
@@ -25,7 +25,7 @@ public class UHCTask extends BukkitRunnable {
 		
 		if(timer == 0){
 			main.setState(UHCState.GAMEPVP);
-			Bukkit.broadcastMessage("§cPvP On !");
+			Bukkit.broadcastMessage("Â§cPvP On !");
 		}
 		
 		if(main.border.getSize() > 25){
