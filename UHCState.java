@@ -1,4 +1,4 @@
-package fr.gravenilvec.uhc;
+package euw.uhc.cc;
 
 public enum UHCState {
 
