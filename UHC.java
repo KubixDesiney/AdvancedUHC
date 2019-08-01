@@ -1,4 +1,4 @@
-package fr.gravenilvec.uhc;
+package euw.uhc.cc;
 
 import java.io.File;
 import java.util.ArrayList;
